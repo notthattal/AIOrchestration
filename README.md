@@ -50,17 +50,17 @@ This project implements an AI sentiment analysis pipeline using AWS. The archite
 
 ### Orchestration Workflow
 
-![StateMachine]('./data/img/statemachine_flow.png)
+![StateMachine](./data/img/statemachine_flow.png)
 
 ### Log Groups and Events
 
-![LogGroup]('./data/img/log_group.png)
+![LogGroup](./data/img/log_group.png)
 
-![LogEvent]('./data/img/log_events.png)
+![LogEvent](./data/img/log_events.png)
 
 ### Monitoring Dashboard
 
-![MonitoringDash]('./data/img/monitoring_dash.png)
+![MonitoringDash](./data/img/monitoring_dash.png)
 
 ## Technical Writeup
 
