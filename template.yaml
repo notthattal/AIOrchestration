@@ -1,0 +1,33 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Transform: AWS::Serverless-2016-10-31
+
+Resources:
+  ExtractCSVFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      FunctionName: extract_csv
+      Handler: extract_csv.lambda_handler
+      Runtime: python3.9
+      CodeUri: lambdas/extract_csv/
+      MemorySize: 512
+      Timeout: 60
+      Policies:
+        - S3ReadPolicy:
+            BucketName: ai-orchestration-bucket
+        - S3WritePolicy:
+            BucketName: ai-orchestration-bucket
+
+  AnalyzeSentimentFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      FunctionName: analyze_sentiment
+      Handler: analyze_sentiment.lambda_handler
+      Runtime: python3.9
+      CodeUri: lambdas/analyze_sentiment/
+      MemorySize: 512
+      Timeout: 60
+      Policies:
+        - S3ReadPolicy:
+            BucketName: ai-orchestration-bucket
+        - S3WritePolicy:
+            BucketName: ai-orchestration-bucket
