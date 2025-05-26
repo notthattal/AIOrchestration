@@ -2,7 +2,8 @@
 
 ## Notes
 
-The original csv is too large to upload to github if you would like to download the original csv to run the upload_to_s3 file you can find it [here](https://www.kaggle.com/datasets/snap/amazon-fine-food-reviews?resource=download)
+- The original csv is too large to upload to github if you would like to download the original csv to run the upload_to_s3 file you can find it [here](https://www.kaggle.com/datasets/snap/amazon-fine-food-reviews?resource=download)
+- For convenience, the documentation for this project has been included in this ReadMe, but you can also find it under the documentation folder
 
 ## Architecture Documentation
 
