@@ -112,6 +112,6 @@ AWS Step Functions are used to orchestrate the flow and implement retry logic
 - AWS CloudWatch
 - Python, Pandas, TextBlob
 
-### AI Usage
+## AI Usage
 
 - AI was used as a source for documentation and to help create the .yaml and .toml files in this repository
